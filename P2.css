@@ -1,0 +1,136 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+      width:100%;
+      background-color: rgb(247, 247, 245);
+      margin: auto;
+      
+    
+}
+nav {
+    height: 12vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+nav ul {
+        display: flex;
+        align-items: center;
+
+}
+ nav ul li {
+           list-style: none;
+           margin-right: 40px;
+           font-weight: 700
+
+ }
+
+  nav ul li:first-child {font-weight: 800;
+                       font-size: larger;
+                       color:rgba(6, 242, 41, 0.878);
+
+  }
+
+  main {
+
+
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 87vh;
+  }
+
+  main section {
+             width: 50%;
+ }
+
+
+ .leftmain {margin-right: 0%;
+           
+            position: relative;  
+
+ }
+  .topangle {
+            width: 35px;
+  }
+
+  .leftmain h1 {
+               font-size: 65px;
+  }
+ 
+  .leftmain p {
+              color: #808080;
+              font-size: 16px;
+              margin: 15px 0px;
+
+  }
+   .bottomangle {
+                width: 35px;
+                position: absolute;
+                right: -30px;
+}
+
+ .stethoscope {
+               position: absolute;
+               right: -25px;
+               top: -60px;
+               width: 90%;
+               z-index: -1;
+ }
+ .mouse {
+        position: absolute;
+        right:-75px;
+        width: 35px;
+        bottom:-10px;
+        height: 1.2cm;
+
+ }
+ .leftmain button {
+                  color:white;
+                  background-color:#03fc7f;
+                  border: none;
+                  border-radius: 40px;
+                  padding: 15px 40px;
+                  font-weight: 700;
+                  font-size: 25px;
+    }
+    .rightmain {
+                height: 60%;
+                margin-left: 0px;
+                width: 45%;
+    }
+
+    .greenbox, .yellowbox {
+                        position: absolute;
+                        right: 0;
+    }
+
+    .greenbox {
+              width: 35%;
+              bottom:20px
+    }
+     .yellowbox {
+        
+            width: 30%;
+            bottom:30px;
+            right: -30px;
+            
+  }
+
+  .doctor {
+          position: absolute;
+          right: 0;
+          bottom:0px;
+          height: 95%;
+          
+
+  }
+     
